@@ -1,0 +1,48 @@
+.footer {
+    background-color: #141414; 
+    color: #757575; 
+    padding: 100px 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+.footer-container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.lists{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ 
+    
+}
+.lists ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.lists ul li{
+    margin-bottom: 50px;
+
+}
+
+.language-selector{
+    margin-top: 20px;
+}
+
+.language-selector select{
+    background: transparent;
+    border:  1px solid #6e6e6e;
+    color: rgb(77, 77, 77);
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+
+.footer-text{
+    margin-top: 20px;
+    font-size: 13px;
+}
